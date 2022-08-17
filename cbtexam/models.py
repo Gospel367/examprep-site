@@ -3,7 +3,6 @@ from django.db import models
 from django.utils.text import slugify
 from django.contrib.auth.models import AbstractUser
 from django.core.exceptions import ValidationError
-from matplotlib import widgets
 from tinymce import models as tinymce_models
 def validate_pass(value):
     if len(str((value) ))< 6:

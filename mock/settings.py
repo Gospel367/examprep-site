@@ -79,9 +79,16 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'mock.wsgi.application'
 
-EMAIL_BACKEND ="django.core.mail.backends.filebased.EmailBackend"
+'''EMAIL_BACKEND ="django.core.mail.backends.filebased.EmailBackend"
 EMAIL_FILE_PATH=BASE_DIR/"sent_emails"
-
+'''
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'ferdinandchinaza@gmail.com'
+EMAIL_HOST_PASSWORD = 'llsyqzyvzhdcsvwf'
+DEFAULT_FROM_EMAIL = 'ferdinanchinaza@gmail.com'
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases

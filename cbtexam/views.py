@@ -796,8 +796,7 @@ def necoexams(request, pk):
                 answ.append(q.ans)
             else:
                 wrong+=1
-        percent = score/(t
-                         otal*10) *100
+        percent = score/(total*10) *100
         
         exam =title
         correctt =correct

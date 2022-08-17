@@ -1,3 +1,1 @@
-# Quiz_site
-A sensational multi purpose quiz site with features like online polls, educational and school news updates, scholarships updates and student dashboard
-Contact me: Ferdinandchinaza@gmail.com
+An exam preparation site with features like online quizzes in different courses and exams, scholarship blog updates, online poll and student dashboards etc
